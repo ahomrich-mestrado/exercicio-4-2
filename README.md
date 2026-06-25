@@ -20,6 +20,12 @@ implementadas como chamadas HTTP para a API REST do exercício 4.1.
    python cliente_teste.py
    ```
 
+## Estrutura
+
+- `servidor_mcp.py` — MCP server com as tools `criar_tarefa` e `listar_tarefas`
+- `cliente_teste.py` — sobe o server como subprocesso via stdio e imprime o resultado em JSON
+- `requirements.txt` — dependências: `mcp` e `httpx`
+
 ## Reflexão
 
 O MCP tornou irrelevante para o agente o **protocolo de transporte**:
